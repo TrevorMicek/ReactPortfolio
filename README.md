@@ -1,4 +1,4 @@
-ello & welcome to my portfolio! This is my first react app 
+Hello & welcome to my portfolio! This is my first react app 
 and I love how it turned out. I commented almost every component
 so there is less confusion on what exactly everything does. My file 
 structure is very neat and easy to navigate. I have a folder for each page,
