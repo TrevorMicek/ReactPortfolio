@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Wrapper from './Wrapper';
-
 //Header Section Styles
 export default styled(Wrapper)`
     background: none;
