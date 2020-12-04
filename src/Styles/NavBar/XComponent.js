@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 import NavBarItem from './NavBarItem';
-
+import xImg from '../../Images/X.png'
 //X graphic with drop down menu
 const NavBarItemMobile = styled(NavBarItem)`
     @media only screen and (min-device-width: 320px) {
@@ -49,7 +49,7 @@ const XStyles = styled.img`
 `;
 const DropDownMenu = () => (
     <>
-        <XStyles src={require('../../Images/X.png')} />
+        <XStyles src={xImg} />
         <NavLink to="/">
             <NavBarItemMobile>Home</NavBarItemMobile>
         </NavLink>

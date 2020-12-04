@@ -36,7 +36,7 @@ cursor: pointer;
 const Hamburger = () => (
     <>
     
-        <HamburgerStyles src={require('../../Images/HamburgerImg.png')} />
+        <HamburgerStyles src={HamburgerImg} />
     </>
 );
 export default Hamburger;

@@ -92,7 +92,7 @@ const Header = (props) => (
         </HeaderText>
         <PDF href={TrevorMicekResume} download="TrevorMicekResume.pdf">Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
-        <Link to="/portfolio">
+        <Link to="/projects">
         <HeaderButton>Portfolio</HeaderButton>
         </Link>
     </HeaderWrap>

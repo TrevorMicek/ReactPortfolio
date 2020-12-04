@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import A from './CarouselStyles/Link';
 import Background from './CarouselStyles/Background';
 import Container from './CarouselStyles/Container';
-import SectionText from './CarouselStyles/SectionText';
+import Text from './CarouselStyles/SectionText';
 import SectionTitle from './CarouselStyles/SectionTitle';
 import PixelArtImg from '../../../Images/PixelArtImg.jpeg';
 
@@ -12,6 +12,16 @@ import PixelArtImg from '../../../Images/PixelArtImg.jpeg';
 const BG = styled(Background)`
     background: url(${PixelArtImg}) no-repeat top center;
     background-size: 100% 95%;
+`;
+const SectionText = styled(Text)`
+    color: #000;
+    margin: 1vh 4vw;
+    padding-top: 1vh;
+    text-shadow: none;
+
+    @media(min-width: 1060px) {
+        line-height: 3vh;
+    }
 `;
 //Online Library Section
 const SecondarySection = () => (

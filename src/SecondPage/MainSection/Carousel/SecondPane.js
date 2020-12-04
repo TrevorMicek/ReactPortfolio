@@ -5,7 +5,7 @@ import A from './CarouselStyles/Link';
 import Background from './CarouselStyles/Background';
 import Container from './CarouselStyles/Container';
 import OldFreelanceImg from '../../../Images/OldFreelanceImg.jpg';
-import SectionText from './CarouselStyles/SectionText';
+import Text from './CarouselStyles/SectionText';
 import SectionTitle from './CarouselStyles/SectionTitle';
 
 //Background For Twin Owl
@@ -13,6 +13,16 @@ const BG = styled(Background)`
     background: url(${OldFreelanceImg}) no-repeat top center;
     background-size: 100% 100%;
     border: 1px solid #000;
+`;
+const SectionText = styled(Text)`
+    color: #000;
+    margin: 1vh 4vw;
+    padding-top: 1vh;
+    text-shadow: none;
+
+    @media(min-width: 1060px) {
+        line-height: 3vh;
+    }
 `;
 //Twin Owl Section
 const SecondarySection = () => (

@@ -9,7 +9,7 @@ const DropDownStyles = styled(NavBarContainer)`
     display: inline-block;
     background-color: #fff;
     align-self: right;
-
+    margin-bottom: 10vh;
 
     padding-top: 7.5vh;
     padding-bottom: 3.25vh;
@@ -17,8 +17,8 @@ const DropDownStyles = styled(NavBarContainer)`
 
     right: 0;
 
-    max-width: 60%;
-    height: 45%;
+    max-width: 60vw;
+    height: 50vh;
     
     @media(min-width: 915px) {
         display: none;

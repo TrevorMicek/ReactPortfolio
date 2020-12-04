@@ -1,8 +1,9 @@
 import React from 'react';
+
 import styled from 'styled-components';
 import Icons from './Icons';
 import Text from '../../Styles/SectionText';
-
+import InstaImg from '../../Images/IIcon.png'
 
 
 //Left Side of Footer
@@ -30,7 +31,7 @@ const LeftSide = () => (
     <LSStyles>
         <Text>Follow Me!
         <Icons> 
-                <a href="http://www.instagram.com" ><img src={require('../../Images/IIcon.png')} alt="Instagram Icon"></img></a>
+                <a href="http://www.instagram.com" ><img src={InstaImg} alt="Instagram Icon"></img></a>
            
         </Icons>
         </Text>

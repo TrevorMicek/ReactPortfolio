@@ -31,5 +31,6 @@ export default styled.button`
         display: inline-block;
         font-size: 1em;
         padding: 1.5vh 1.5vw;
+        
     }
 `;

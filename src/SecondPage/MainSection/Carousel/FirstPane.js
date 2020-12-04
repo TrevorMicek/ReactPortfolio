@@ -5,13 +5,25 @@ import A from './CarouselStyles/Link';
 import Background from './CarouselStyles/Background';
 import Container from './CarouselStyles/Container';
 import EaglePlume from '../../../Images/EaglePlume.jpg';
-import SectionText from './CarouselStyles/SectionText';
+import Text from './CarouselStyles/SectionText';
 import SectionTitle from './CarouselStyles/SectionTitle';
 
 //Background For Eagle Plume Project
 const BG = styled(Background)`
     background: url(${EaglePlume}) no-repeat top center;
-    background-size: 100% 95%;
+    background-size: 100% 100%;
+    border: 1px solid #000;
+`;
+const SectionText = styled(Text)`
+    color: #000;
+    margin: 1vh 4vw;
+    padding-top: 1vh;
+    text-shadow: none;
+    font-size: 1.25em;
+
+    @media(min-width: 1060px) {
+        line-height: 3vh;
+    }
 `;
 //Eagle Plume Section
 const SecondarySection = () => (
