@@ -19,6 +19,7 @@ const SectionText = styled(Text)`
     margin: 1vh 4vw;
     padding-top: 1vh;
     text-shadow: none;
+    font-size: 1.10em;
 
     @media(min-width: 1060px) {
         line-height: 3vh;
