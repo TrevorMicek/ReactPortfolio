@@ -17,7 +17,7 @@ const DropDownStyles = styled(NavBarContainer)`
     right: 0;
 
     max-width: 60vw;
-    min-height: 45vh;
+    min-height: 50vh;
     
     @media(min-width: 915px) {
         display: none;
