@@ -26,10 +26,7 @@ const NavBar = () => (
 
                         <MobileNav />	
                         
-                        <Link to="/" activeStyle={{
-                                backgroundColor: "lightgrey",
-                                textDecoration: "underline"
-                        }}>
+                        <Link to="/">
                                 <NavBarItem>Home</NavBarItem>
                         </Link>
                         <Link to="/projects">
@@ -40,6 +37,9 @@ const NavBar = () => (
                          </Link>
 			<Link to="/contact">
                                 <NavBarItem>Contact</NavBarItem>
+                        </Link>
+                        <Link to="/ecommerce">
+                                <NavBarItem>eCommerce</NavBarItem>
                         </Link>
                        
 	        </NavBarContainer>

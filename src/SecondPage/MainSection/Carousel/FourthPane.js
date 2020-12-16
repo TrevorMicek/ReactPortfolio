@@ -10,8 +10,17 @@ import PixelArtImg from '../../../Images/PixelArtImg.jpeg';
 
 //Background For Archive Project
 const BG = styled(Background)`
+min-height: 40vh;
+    width: auto;
     background: url(${PixelArtImg}) no-repeat top center;
     background-size: 100% 95%;
+    @media(min-width: 916px) {
+        min-height: 50vh;
+    }
+    @media(min-width: 1060px) {
+        min-height: 60vh;
+        margin: 3vh 7vw 0 7vw;
+    }
 `;
 const SectionText = styled(Text)`
     color: #000;

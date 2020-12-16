@@ -14,7 +14,7 @@ export default styled.button`
     outline: none;
     padding: 1vh 1.5vw;
     position: relative;
-    right: 14vw;
+    right: 7vw;
     text-decoration: none;
     z-index: 3;
 

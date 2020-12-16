@@ -6,9 +6,9 @@ import MainSectionItem from './../../../../Styles/MainSectionItem';
 //Styles For Project Page Main Section Container
 const Container = styled(MainSectionItem)`
     background: #fff;
-    height: 80vh;
+    height: 90vh;
     max-width: 80%;
-
+    
     @media(min-width: 916px) {
         height: 90vh;  
     }

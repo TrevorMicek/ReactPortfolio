@@ -75,6 +75,7 @@ const PrimarySection = () => (
                     <li>ReactJS</li>
                     <li>ES6</li>
                     <li>HTML5/CSS3</li>
+                    <li>NodeJs/Express</li>
                 </FirstList>
                 <SecondList>
                     <li>OOP</li>

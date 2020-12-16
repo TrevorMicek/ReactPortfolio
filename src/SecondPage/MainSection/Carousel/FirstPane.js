@@ -10,9 +10,20 @@ import SectionTitle from './CarouselStyles/SectionTitle';
 
 //Background For Eagle Plume Project
 const BG = styled(Background)`
+    min-height: 50vh;
+    width: auto;
     background: url(${EaglePlume}) no-repeat top center;
     background-size: 100% 100%;
     border: 1px solid #000;
+
+    @media(min-width: 916px) {
+        min-height: 60vh;
+    }
+    @media(min-width: 1060px) {
+        min-height: 65vh;
+        margin: 4vh 7vw 0 7vw;
+    }
+
 `;
 const SectionText = styled(Text)`
     color: #000;

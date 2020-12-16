@@ -40,7 +40,7 @@ const Bottom = () => (
                 Home
             </SectionText>
         </NavLink>
-        <NavLink to="/portfolio">
+        <NavLink to="/projects">
             <SectionText>
                 Projects
             </SectionText>
