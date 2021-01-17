@@ -35,7 +35,7 @@ const HeaderWrap = styled(HeaderContainer)`
     }
 `;
 const OverlayStyle = styled(Overlay)`
-    background: rgba(00, 00, 00, .15);
+    background: rgba(00, 00, 00, .2);
 
     @media(max-width: 768px) {
         background: rgba(00, 00, 50, .15);
@@ -87,8 +87,8 @@ const Header = (props) => (
             Welcome to my website made<br /> 100% with ReactJS!
         </HeaderTitle>
         <HeaderText>
-            Hello, I'm Trevor Micek and I am a Web Developer, <br />
-            that loves building powerful, yet simple websites
+            Hello, I'm Trevor and I am a Web Developer,
+            that loves building powerful,<br /> yet simple websites
         </HeaderText>
         <PDF href={TrevorMicekResume} download="TrevorMicekResume.pdf">Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
