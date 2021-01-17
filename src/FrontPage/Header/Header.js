@@ -88,7 +88,7 @@ const Header = (props) => (
         </HeaderTitle>
         <HeaderText>
             Hello, I'm Trevor Micek and I am a Front End Developer, <br />
-            looking for a position at a business in Colorado.
+            that loves building powerful, yet simple websites
         </HeaderText>
         <PDF href={TrevorMicekResume} download="TrevorMicekResume.pdf">Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
