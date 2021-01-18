@@ -67,10 +67,11 @@ const TertiarySection = (props) => (
         </Link>
         <SectionText>
             <Links href="eagle-plumes.com">Eagle Plume's</Links><br />
-            <Links href="twinowldigital.com">Old Freelance Site</Links><br />
-            <Links href="#">Marketing Portfolio Site</Links><br />
-            <Links href="#">Art Collective Site</Links><br />
-            <Links href="#">Many More to Come...</Links><br />
+            <Links>Old Freelance Site - unactive</Links><br />
+            <Links href="/#/projects">Many More to Come...</Links><br />
+            <Links>Marketing Portfolio Site</Links><br />
+            <Links>Art Collective Site</Links><br />
+            
         </SectionText>                     
     </Container> 
 )

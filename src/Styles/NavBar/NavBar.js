@@ -38,9 +38,7 @@ const NavBar = () => (
 			<Link to="/contact">
                                 <NavBarItem>Contact</NavBarItem>
                         </Link>
-                        <Link to="/ecommerce">
-                                <NavBarItem>eCommerce</NavBarItem>
-                        </Link>
+                      
                        
 	        </NavBarContainer>
 	        

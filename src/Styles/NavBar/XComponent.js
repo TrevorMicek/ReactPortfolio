@@ -62,9 +62,7 @@ const DropDownMenu = () => (
         <NavLink to="/contact">
             <NavBarItemMobile>Contact</NavBarItemMobile>
         </NavLink> 
-        <NavLink to="/eCommerce">
-            <NavBarItemMobile>eCommerce</NavBarItemMobile>
-        </NavLink> 
+      
     </>
 )
 export default DropDownMenu;

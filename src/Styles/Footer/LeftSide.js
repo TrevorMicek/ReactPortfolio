@@ -31,7 +31,7 @@ const LeftSide = () => (
     <LSStyles>
         <Text>Follow Me!
         <Icons> 
-                <a href="http://www.instagram.com" ><img src={InstaImg} alt="Instagram Icon"></img></a>
+                <a href="http://www.instagram.com/trevor_micek/" ><img src={InstaImg} alt="Instagram Icon"></img></a>
            
         </Icons>
         </Text>

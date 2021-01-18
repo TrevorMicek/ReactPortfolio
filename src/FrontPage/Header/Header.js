@@ -87,8 +87,8 @@ const Header = (props) => (
             Welcome to my website made<br /> 100% with ReactJS!
         </HeaderTitle>
         <HeaderText>
-            Hello, I'm Trevor and I am a Web Developer,
-            that loves building powerful,<br /> yet simple websites
+            Hello! I'm Trevor, a Web Developer, <br />
+            that specializes in building powerful,<br /> yet simple websites
         </HeaderText>
         <PDF href={TrevorMicekResume} download="TrevorMicekResume.pdf">Resume</PDF>
         <Email href="mailto:miceking@comcast.net">E-mail Me</Email>
